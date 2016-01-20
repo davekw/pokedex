@@ -1,4 +1,6 @@
-# pokedex
+# Pok√©dex
 
-Use the left and right arrow-keys to advance through the PokÈdex,
-and use the up and down arrow-keys to toggle the shiny type PokÈmon.
+## Instructions
+* Use left and right arrow-keys to advance through the Pok√©dex
+* Use the up and down arrow-keys to toggle front and back of Pok√©mon
+
