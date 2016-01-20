@@ -4,7 +4,7 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 
-public class LifeComponent extends Canvas implements Runnable {
+public class MainComponent extends Canvas implements Runnable {
     /**
      * fields
      */
@@ -22,7 +22,7 @@ public class LifeComponent extends Canvas implements Runnable {
     /**
      * constructor
      */
-    public LifeComponent() {
+    public MainComponent() {
         //size
         Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
         setSize(size);
@@ -153,8 +153,8 @@ public class LifeComponent extends Canvas implements Runnable {
      * @param args
      */
     public static void main(String[] args) {
-        LifeComponent game = new LifeComponent();
-        JFrame frame = new JFrame("Pokedex by dave");
+        MainComponent game = new MainComponent();
+        JFrame frame = new JFrame("Pokedex by Dave");
         frame.setResizable(false);
 
         JPanel panel = new JPanel(new BorderLayout());
